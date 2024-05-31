@@ -13,6 +13,25 @@ CRUD Operations Using C#, OOP
 
 ![image](https://github.com/yousefsayedd1/CRUD-Operations/assets/95933671/192b82ba-8c2f-4b58-9ad8-1317b562a1ef)
 
+## Enums:
+- `enum Option`
+  ```csharp
+  enum Option
+  {
+      AddUser = 1,
+      UpdateUser,
+      DeleteUser,
+      PrintUsers,
+  }
+- `enum UpdateOption`
+  ```csharp
+   enum UpdateOption
+   {
+    EditName = 1,
+    EditEmail,
+    EditPhoneNumber
+   }
+
 ## Functions:
 - `int DisplayMenu()`
 - `string PromptForValidEmail()`
